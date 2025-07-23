@@ -224,7 +224,7 @@ def save_results_to_files(sources: List[str], descriptions: List[str], ids: List
             f.write(f"{i+1}: {entity_id}\n")
     
     csv_file = os.path.join(output_dir, "processed_entities.csv")
-    with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+    with open(csv_file, 'w', newline='', encoding='utf-8-sig') as f:
         writer = csv.writer(f)
         writer.writerow(['Source', 'ID', 'Name', 'Description'])
         for source, entity_id, name, desc in zip(sources, ids, names, descriptions):
