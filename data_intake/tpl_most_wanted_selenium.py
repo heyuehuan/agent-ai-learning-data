@@ -220,7 +220,7 @@ class SeleniumTPSScraper:
             logger.error(f"Error getting details for {suspect_info['name']}: {e}")
             return suspect_info
     
-    def save_to_csv(self, suspects_data, filename='tps_most_wanted_selenium.csv'):
+    def save_to_csv(self, suspects_data, filename='tpl_most_wanted.csv'):
         if not suspects_data:
             logger.warning("No data to save")
             return None
