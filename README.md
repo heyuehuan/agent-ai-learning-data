@@ -24,7 +24,7 @@ Data source: https://www.opensanctions.org/datasets/ca_dfatd_sema_sanctions/
 
 Liscence/Copyright Info: CC 4.0 Attribution-NonCommercial. (https://github.com/opensanctions/opensanctions/)
 
-## Toronto Police Service Most Wanted List published by TPL
+## Toronto Police Service Most Wanted List published by TPS
 
 Data description: Toronto Police Service - The Most-Wanted Persons page lists those who have been identified as being allegedly responsible for the crime but have not yet been arrested. These individuals need to be held accountable.
 
